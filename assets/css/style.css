@@ -1,6 +1,5 @@
 *{
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -22,6 +21,10 @@
 
 .col30{
   width: 30%;
+}
+
+.col32{
+  width: 32%;
 }
 
 .col70{
@@ -68,6 +71,18 @@ button{
   justify-content: center;
 }
 
+.align-center{
+  align-items: center;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.inline{
+  display: inline;
+}
+
 .wrap{
   display: flex;
   flex-wrap: wrap;
@@ -78,6 +93,20 @@ button{
   flex-direction: column;
 }
 
+.flex-start{
+  justify-content: flex-start;
+}
+
+
+
+.col32 div{
+  margin-bottom: 30px;
+}
+
+.col32 div ul li{
+  margin-bottom: 30px;
+}
+
 .gap{
   gap: 20px;
 }
@@ -86,11 +115,15 @@ button{
   font-size: 40px;
 }
 
-
+.border-black{
+  border: solid black 1px;
+}
 
 .bg-gold{
   background-color: gold;
   color: purple;
+  height: 500px;
+  border: solid purple 3px;
 }
 
 .bg-white{
@@ -109,9 +142,14 @@ button{
   color: white;
 }
 
+.grey{
+  color: grey;
+}
+
 .border-purple{
   border: solid 2px purple;
 }
+
 
 .padding15{
   padding: 15px;
@@ -121,8 +159,12 @@ button{
   padding-top: 100px;
 }
 
-.margin-top50{
+.margin-top30{
   margin-top: 30px;
+}
+
+.margin-bottom100{
+  margin-bottom: 100px;
 }
 
 /* layout */
@@ -163,4 +205,8 @@ h1{
 hr{
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+li{
+  list-style: none;
 }
