@@ -117,8 +117,8 @@ button{
   padding: 15px;
 }
 
-.margin-top100{
-  margin-top: 100px;
+.padding-top100{
+  padding-top: 100px;
 }
 
 .margin-top50{
@@ -152,16 +152,15 @@ header{
   padding-right: 15px;
 }
 
-.logo{
-  vertical-align: baseline;
-}
-
 .jumbo{
   max-width: 100%;
-  position: relative;
-  top: 20px;
 }
 
 h1{
   font-size: 65px;
+}
+
+hr{
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
