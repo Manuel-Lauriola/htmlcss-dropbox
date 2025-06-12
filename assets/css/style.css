@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* content */
+
+.container-wide{
+  width: 100%;
+}
+
+.discover{
+
+}
+
+.buttons button{
+  padding: 7px;
+}
+
+/* utility */
+
+.display-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.justify-left{
+  display: flex;
+  justify-content: left;
+}
+
+.justify-right{
+  display: flex;
+  justify-content: right;
+}
+
+.bg-purple{
+  background-color: gold;
+  color: purple;
+}
+
+.bg-blue{
+  background-color: #0061fe;
+}
+
+.white{
+  color: white;
+}
+
+.border-gold{
+  border: solid 2px purple;
+}
+
+.padding15{
+  padding: 15px;
+}
+
+/* layout */
+
+header{
+  position: fixed;
+  top: 0px;
+}
+
+.header-left{
+
+}
+
+.header-left ul li{
+  list-style: none;
+  padding-left: 15px;
+}
+
+.header-right ul li{
+  list-style: none;
+  padding-right: 15px;
+}
