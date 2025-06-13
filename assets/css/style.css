@@ -167,6 +167,14 @@ button{
   margin-bottom: 100px;
 }
 
+.margin-left10{
+  margin-left: 30px;
+}
+
+.margin-right30{
+  margin-right: 30px;
+}
+
 /* layout */
 
 header{
